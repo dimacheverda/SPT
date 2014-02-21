@@ -7,11 +7,17 @@
 //
 
 #import "SPTAppDelegate.h"
+#import "TestFlight.h"
 
 @implementation SPTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+//     [TestFlight takeOff:@"ee1f3fbf-7e17-4a38-9191-45d9d2a23403"];
+    
+    // reveal app init
+    // reveal app start
+    
     // Override point for customization after application launch.
     return YES;
 }

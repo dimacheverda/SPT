@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3237110218B3D53B00C15054 /* STKSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3237110118B3D53B00C15054 /* STKSpinnerView.m */; };
+		3237110418B3D9C800C15054 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3237110318B3D9C800C15054 /* QuartzCore.framework */; };
+		326BBDF418B12683002D8E2F /* SPTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 326BBDF318B12683002D8E2F /* SPTTextField.m */; };
+		32825AD318B543B800B904FD /* SPTAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32825AD218B543B800B904FD /* SPTAboutViewController.m */; };
+		328F9C8418AF7EF70070A69E /* SPTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328F9C8318AF7EF70070A69E /* SPTInfoViewController.m */; };
+		328F9C8A18AFEF250070A69E /* UIButton+SPTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 328F9C8918AFEF250070A69E /* UIButton+SPTAdditions.m */; };
+		328F9C8D18AFF63A0070A69E /* UIColor+SPTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 328F9C8C18AFF63A0070A69E /* UIColor+SPTAdditions.m */; };
+		32908C9118AE1DF300BDE9F3 /* SPTPlaySessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32908C9018AE1DF300BDE9F3 /* SPTPlaySessionViewController.m */; };
+		32908C9418AE215300BDE9F3 /* SPTPlaySession.m in Sources */ = {isa = PBXBuildFile; fileRef = 32908C9318AE215300BDE9F3 /* SPTPlaySession.m */; };
+		32908C9718AE217300BDE9F3 /* SPTQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32908C9618AE217300BDE9F3 /* SPTQuestion.m */; };
+		32908C9918AE34CE00BDE9F3 /* QuestionsDB.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32908C9818AE34CE00BDE9F3 /* QuestionsDB.plist */; };
+		32908C9C18AE610700BDE9F3 /* SPTResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32908C9B18AE610700BDE9F3 /* SPTResultViewController.m */; };
+		32908CA418AE878900BDE9F3 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32908C9E18AE878900BDE9F3 /* libTestFlight.a */; };
+		32908CA518AE878900BDE9F3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32908C9F18AE878900BDE9F3 /* README.md */; };
+		32908CA618AE878900BDE9F3 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 32908CA018AE878900BDE9F3 /* release_notes.md */; };
 		3290E9AE18AD4223007217D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290E9AD18AD4223007217D5 /* Foundation.framework */; };
 		3290E9B018AD4223007217D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290E9AF18AD4223007217D5 /* CoreGraphics.framework */; };
 		3290E9B218AD4223007217D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290E9B118AD4223007217D5 /* UIKit.framework */; };
@@ -14,13 +29,13 @@
 		3290E9BA18AD4223007217D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290E9B918AD4223007217D5 /* main.m */; };
 		3290E9BE18AD4223007217D5 /* SPTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290E9BD18AD4223007217D5 /* SPTAppDelegate.m */; };
 		3290E9C118AD4223007217D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3290E9BF18AD4223007217D5 /* Main.storyboard */; };
-		3290E9C418AD4223007217D5 /* SPTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290E9C318AD4223007217D5 /* SPTViewController.m */; };
 		3290E9C618AD4223007217D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3290E9C518AD4223007217D5 /* Images.xcassets */; };
 		3290E9CD18AD4223007217D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290E9CC18AD4223007217D5 /* XCTest.framework */; };
 		3290E9CE18AD4223007217D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290E9AD18AD4223007217D5 /* Foundation.framework */; };
 		3290E9CF18AD4223007217D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290E9B118AD4223007217D5 /* UIKit.framework */; };
 		3290E9D718AD4223007217D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3290E9D518AD4223007217D5 /* InfoPlist.strings */; };
 		3290E9D918AD4223007217D5 /* SPTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290E9D818AD4223007217D5 /* SPTTests.m */; };
+		3290E9E718AD45FC007217D5 /* SPTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290E9E618AD45FC007217D5 /* SPTMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3237110018B3D53B00C15054 /* STKSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKSpinnerView.h; sourceTree = "<group>"; };
+		3237110118B3D53B00C15054 /* STKSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKSpinnerView.m; sourceTree = "<group>"; };
+		3237110318B3D9C800C15054 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		326BBDF218B12683002D8E2F /* SPTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTTextField.h; path = Classes/SPTTextField.h; sourceTree = "<group>"; };
+		326BBDF318B12683002D8E2F /* SPTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTTextField.m; path = Classes/SPTTextField.m; sourceTree = "<group>"; };
+		32825AD118B543B800B904FD /* SPTAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTAboutViewController.h; path = Classes/SPTAboutViewController.h; sourceTree = "<group>"; };
+		32825AD218B543B800B904FD /* SPTAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTAboutViewController.m; path = Classes/SPTAboutViewController.m; sourceTree = "<group>"; };
+		328F9C8218AF7EF70070A69E /* SPTInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTInfoViewController.h; path = Classes/SPTInfoViewController.h; sourceTree = "<group>"; };
+		328F9C8318AF7EF70070A69E /* SPTInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTInfoViewController.m; path = Classes/SPTInfoViewController.m; sourceTree = "<group>"; };
+		328F9C8818AFEF250070A69E /* UIButton+SPTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+SPTAdditions.h"; path = "Classes/UIButton+SPTAdditions.h"; sourceTree = "<group>"; };
+		328F9C8918AFEF250070A69E /* UIButton+SPTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+SPTAdditions.m"; path = "Classes/UIButton+SPTAdditions.m"; sourceTree = "<group>"; };
+		328F9C8B18AFF63A0070A69E /* UIColor+SPTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+SPTAdditions.h"; path = "Classes/UIColor+SPTAdditions.h"; sourceTree = "<group>"; };
+		328F9C8C18AFF63A0070A69E /* UIColor+SPTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SPTAdditions.m"; path = "Classes/UIColor+SPTAdditions.m"; sourceTree = "<group>"; };
+		32908C8F18AE1DF300BDE9F3 /* SPTPlaySessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTPlaySessionViewController.h; path = Classes/SPTPlaySessionViewController.h; sourceTree = "<group>"; };
+		32908C9018AE1DF300BDE9F3 /* SPTPlaySessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTPlaySessionViewController.m; path = Classes/SPTPlaySessionViewController.m; sourceTree = "<group>"; };
+		32908C9218AE215300BDE9F3 /* SPTPlaySession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTPlaySession.h; path = Classes/SPTPlaySession.h; sourceTree = "<group>"; };
+		32908C9318AE215300BDE9F3 /* SPTPlaySession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTPlaySession.m; path = Classes/SPTPlaySession.m; sourceTree = "<group>"; };
+		32908C9518AE217300BDE9F3 /* SPTQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTQuestion.h; path = Classes/SPTQuestion.h; sourceTree = "<group>"; };
+		32908C9618AE217300BDE9F3 /* SPTQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTQuestion.m; path = Classes/SPTQuestion.m; sourceTree = "<group>"; };
+		32908C9818AE34CE00BDE9F3 /* QuestionsDB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuestionsDB.plist; sourceTree = "<group>"; };
+		32908C9A18AE610700BDE9F3 /* SPTResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTResultViewController.h; path = Classes/SPTResultViewController.h; sourceTree = "<group>"; };
+		32908C9B18AE610700BDE9F3 /* SPTResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTResultViewController.m; path = Classes/SPTResultViewController.m; sourceTree = "<group>"; };
+		32908C9E18AE878900BDE9F3 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		32908C9F18AE878900BDE9F3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		32908CA018AE878900BDE9F3 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		32908CA118AE878900BDE9F3 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		32908CA218AE878900BDE9F3 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		32908CA318AE878900BDE9F3 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		3290E9AA18AD4223007217D5 /* SPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3290E9AD18AD4223007217D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3290E9AF18AD4223007217D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +88,14 @@
 		3290E9BC18AD4223007217D5 /* SPTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTAppDelegate.h; sourceTree = "<group>"; };
 		3290E9BD18AD4223007217D5 /* SPTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTAppDelegate.m; sourceTree = "<group>"; };
 		3290E9C018AD4223007217D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3290E9C218AD4223007217D5 /* SPTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTViewController.h; sourceTree = "<group>"; };
-		3290E9C318AD4223007217D5 /* SPTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTViewController.m; sourceTree = "<group>"; };
 		3290E9C518AD4223007217D5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3290E9CB18AD4223007217D5 /* SPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3290E9CC18AD4223007217D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3290E9D418AD4223007217D5 /* SPTTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SPTTests-Info.plist"; sourceTree = "<group>"; };
 		3290E9D618AD4223007217D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3290E9D818AD4223007217D5 /* SPTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTTests.m; sourceTree = "<group>"; };
+		3290E9E518AD45FC007217D5 /* SPTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTMainViewController.h; path = Classes/SPTMainViewController.h; sourceTree = "<group>"; };
+		3290E9E618AD45FC007217D5 /* SPTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTMainViewController.m; path = Classes/SPTMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +103,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3237110418B3D9C800C15054 /* QuartzCore.framework in Frameworks */,
 				3290E9B018AD4223007217D5 /* CoreGraphics.framework in Frameworks */,
 				3290E9B218AD4223007217D5 /* UIKit.framework in Frameworks */,
 				3290E9AE18AD4223007217D5 /* Foundation.framework in Frameworks */,
+				32908CA418AE878900BDE9F3 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +124,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32908C9D18AE878900BDE9F3 /* TestFlightSDK2.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				32908C9E18AE878900BDE9F3 /* libTestFlight.a */,
+				32908C9F18AE878900BDE9F3 /* README.md */,
+				32908CA018AE878900BDE9F3 /* release_notes.md */,
+				32908CA118AE878900BDE9F3 /* TestFlight+AsyncLogging.h */,
+				32908CA218AE878900BDE9F3 /* TestFlight+ManualSessions.h */,
+				32908CA318AE878900BDE9F3 /* TestFlight.h */,
+			);
+			path = TestFlightSDK2.2.1;
+			sourceTree = "<group>";
+		};
 		3290E9A118AD4223007217D5 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +159,8 @@
 		3290E9AC18AD4223007217D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3237110318B3D9C800C15054 /* QuartzCore.framework */,
+				32908C9D18AE878900BDE9F3 /* TestFlightSDK2.2.1 */,
 				3290E9AD18AD4223007217D5 /* Foundation.framework */,
 				3290E9AF18AD4223007217D5 /* CoreGraphics.framework */,
 				3290E9B118AD4223007217D5 /* UIKit.framework */,
@@ -115,10 +175,31 @@
 				3290E9BC18AD4223007217D5 /* SPTAppDelegate.h */,
 				3290E9BD18AD4223007217D5 /* SPTAppDelegate.m */,
 				3290E9BF18AD4223007217D5 /* Main.storyboard */,
-				3290E9C218AD4223007217D5 /* SPTViewController.h */,
-				3290E9C318AD4223007217D5 /* SPTViewController.m */,
+				3290E9E518AD45FC007217D5 /* SPTMainViewController.h */,
+				3290E9E618AD45FC007217D5 /* SPTMainViewController.m */,
+				32825AD118B543B800B904FD /* SPTAboutViewController.h */,
+				32825AD218B543B800B904FD /* SPTAboutViewController.m */,
+				328F9C8218AF7EF70070A69E /* SPTInfoViewController.h */,
+				328F9C8318AF7EF70070A69E /* SPTInfoViewController.m */,
+				32908C8F18AE1DF300BDE9F3 /* SPTPlaySessionViewController.h */,
+				32908C9018AE1DF300BDE9F3 /* SPTPlaySessionViewController.m */,
+				32908C9218AE215300BDE9F3 /* SPTPlaySession.h */,
+				32908C9318AE215300BDE9F3 /* SPTPlaySession.m */,
+				32908C9518AE217300BDE9F3 /* SPTQuestion.h */,
+				32908C9618AE217300BDE9F3 /* SPTQuestion.m */,
+				32908C9A18AE610700BDE9F3 /* SPTResultViewController.h */,
+				32908C9B18AE610700BDE9F3 /* SPTResultViewController.m */,
 				3290E9C518AD4223007217D5 /* Images.xcassets */,
+				32908C9818AE34CE00BDE9F3 /* QuestionsDB.plist */,
+				3237110018B3D53B00C15054 /* STKSpinnerView.h */,
+				3237110118B3D53B00C15054 /* STKSpinnerView.m */,
 				3290E9B418AD4223007217D5 /* Supporting Files */,
+				328F9C8818AFEF250070A69E /* UIButton+SPTAdditions.h */,
+				328F9C8918AFEF250070A69E /* UIButton+SPTAdditions.m */,
+				328F9C8B18AFF63A0070A69E /* UIColor+SPTAdditions.h */,
+				328F9C8C18AFF63A0070A69E /* UIColor+SPTAdditions.m */,
+				326BBDF218B12683002D8E2F /* SPTTextField.h */,
+				326BBDF318B12683002D8E2F /* SPTTextField.m */,
 			);
 			path = SPT;
 			sourceTree = "<group>";
@@ -200,6 +281,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Dima;
 				TargetAttributes = {
+					3290E9A918AD4223007217D5 = {
+						DevelopmentTeam = LQ43N5F28R;
+					};
 					3290E9CA18AD4223007217D5 = {
 						TestTargetID = 3290E9A918AD4223007217D5;
 					};
@@ -229,7 +313,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32908CA618AE878900BDE9F3 /* release_notes.md in Resources */,
+				32908C9918AE34CE00BDE9F3 /* QuestionsDB.plist in Resources */,
 				3290E9C618AD4223007217D5 /* Images.xcassets in Resources */,
+				32908CA518AE878900BDE9F3 /* README.md in Resources */,
 				3290E9B818AD4223007217D5 /* InfoPlist.strings in Resources */,
 				3290E9C118AD4223007217D5 /* Main.storyboard in Resources */,
 			);
@@ -250,9 +337,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3237110218B3D53B00C15054 /* STKSpinnerView.m in Sources */,
+				328F9C8418AF7EF70070A69E /* SPTInfoViewController.m in Sources */,
+				32908C9718AE217300BDE9F3 /* SPTQuestion.m in Sources */,
+				32908C9C18AE610700BDE9F3 /* SPTResultViewController.m in Sources */,
+				328F9C8D18AFF63A0070A69E /* UIColor+SPTAdditions.m in Sources */,
+				32908C9118AE1DF300BDE9F3 /* SPTPlaySessionViewController.m in Sources */,
+				32825AD318B543B800B904FD /* SPTAboutViewController.m in Sources */,
+				328F9C8A18AFEF250070A69E /* UIButton+SPTAdditions.m in Sources */,
 				3290E9BE18AD4223007217D5 /* SPTAppDelegate.m in Sources */,
+				3290E9E718AD45FC007217D5 /* SPTMainViewController.m in Sources */,
+				326BBDF418B12683002D8E2F /* SPTTextField.m in Sources */,
+				32908C9418AE215300BDE9F3 /* SPTPlaySession.m in Sources */,
 				3290E9BA18AD4223007217D5 /* main.m in Sources */,
-				3290E9C418AD4223007217D5 /* SPTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +415,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -334,8 +432,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1EE36158-2D7E-461B-83F9-0C79D6E05C88";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -356,6 +455,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -366,7 +466,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "2DAE5C6D-F3E3-41B2-87D6-4A30FAB1DC4C";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -377,10 +478,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SPT/SPT-Prefix.pch";
 				INFOPLIST_FILE = "SPT/SPT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestFlightSDK2.2.1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1EE36158-2D7E-461B-83F9-0C79D6E05C88";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +498,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SPT/SPT-Prefix.pch";
 				INFOPLIST_FILE = "SPT/SPT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TestFlightSDK2.2.1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2DAE5C6D-F3E3-41B2-87D6-4A30FAB1DC4C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +572,7 @@
 				3290E9DE18AD4223007217D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3290E9DF18AD4223007217D5 /* Build configuration list for PBXNativeTarget "SPTTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +581,7 @@
 				3290E9E118AD4223007217D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

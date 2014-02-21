@@ -1,5 +1,5 @@
 //
-//  SPTViewController.h
+//  SPTMainViewController.h
 //  SPT
 //
 //  Created by Dima on 2/13/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SPTViewController : UIViewController
+@interface SPTMainViewController : UIViewController
 
 @end

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>problem</key>
+			<string>Roberta _____ from The United States.</string>
+			<key>answer</key>
+			<string>is</string>
+			<key>variants</key>
+			<array>
+				<string>are</string>
+				<string>is</string>
+				<string>am </string>
+				<string>be</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>What’s _____ name?</string>
+			<key>answer</key>
+			<string>his</string>
+			<key>variants</key>
+			<array>
+				<string>-</string>
+				<string>his</string>
+				<string>him</string>
+				<string>he</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>My friend _____ in London.</string>
+			<key>answer</key>
+			<string>lives</string>
+			<key>variants</key>
+			<array>
+				<string>living</string>
+				<string>live</string>
+				<string>lives</string>
+				<string>is live</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Where _____?</string>
+			<key>answer</key>
+			<string>does Tom work</string>
+			<key>variants</key>
+			<array>
+				<string>works Tom</string>
+				<string>Tom works</string>
+				<string>Tom does work</string>
+				<string>does Tom work</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I _____ coffee.</string>
+			<key>answer</key>
+			<string>don&apos;t like</string>
+			<key>variants</key>
+			<array>
+				<string>no like</string>
+				<string>not like</string>
+				<string>like don&apos;t</string>
+				<string>don&apos;t like</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>‘_____ to Australia, Ginny?’	‘Yes, two years ago.”</string>
+			<key>answer</key>
+			<string>Have you ever been</string>
+			<key>variants</key>
+			<array>
+				<string>Did you ever go</string>
+				<string>Do you ever go</string>
+				<string>Have you ever been</string>
+				<string>Are you ever going</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Tokyo is _____ city I’ve ever lived in.</string>
+			<key>answer</key>
+			<string>the biggest</string>
+			<key>variants</key>
+			<array>
+				<string>the most big</string>
+				<string>the bigger</string>
+				<string>the biggest</string>
+				<string>the more big</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>A vegetarian is someone _____ doesn’t eat meat.</string>
+			<key>answer</key>
+			<string>who</string>
+			<key>variants</key>
+			<array>
+				<string>who</string>
+				<string>what</string>
+				<string>which</string>
+				<string>whose</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>_____ these days.</string>
+			<key>answer</key>
+			<string>I never a newspaper buy</string>
+			<key>variants</key>
+			<array>
+				<string>I never a newspaper buy</string>
+				<string>I never buy a newspaper</string>
+				<string>I buy never a newspaper</string>
+				<string>Never I buy a newspaper</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I _____ watch TV tonight.</string>
+			<key>answer</key>
+			<string>am going to</string>
+			<key>variants</key>
+			<array>
+				<string>am</string>
+				<string>go to</string>
+				<string>going to</string>
+				<string>am going to</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
