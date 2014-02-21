@@ -48,7 +48,7 @@
                                     <segue destination="7tV-dF-Doi" kind="modal" modalTransitionStyle="flipHorizontal" id="uka-bB-ckf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="161" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T49-wp-kyN">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="161" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T49-wp-kyN">
                                 <rect key="frame" x="80" y="402" width="161" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.90980392160000001" green="0.78823529410000004" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -132,7 +132,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oyv-nU-su4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1097" y="803"/>
+            <point key="canvasLocation" x="1097" y="788"/>
         </scene>
         <!--Info View Controller-->
         <scene sceneID="0Wl-LY-od5">

@@ -19,9 +19,6 @@
 		32908C9718AE217300BDE9F3 /* SPTQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 32908C9618AE217300BDE9F3 /* SPTQuestion.m */; };
 		32908C9918AE34CE00BDE9F3 /* QuestionsDB.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32908C9818AE34CE00BDE9F3 /* QuestionsDB.plist */; };
 		32908C9C18AE610700BDE9F3 /* SPTResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32908C9B18AE610700BDE9F3 /* SPTResultViewController.m */; };
-		32908CA418AE878900BDE9F3 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32908C9E18AE878900BDE9F3 /* libTestFlight.a */; };
-		32908CA518AE878900BDE9F3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 32908C9F18AE878900BDE9F3 /* README.md */; };
-		32908CA618AE878900BDE9F3 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 32908CA018AE878900BDE9F3 /* release_notes.md */; };
 		3290E9AE18AD4223007217D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290E9AD18AD4223007217D5 /* Foundation.framework */; };
 		3290E9B018AD4223007217D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290E9AF18AD4223007217D5 /* CoreGraphics.framework */; };
 		3290E9B218AD4223007217D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3290E9B118AD4223007217D5 /* UIKit.framework */; };
@@ -107,7 +104,6 @@
 				3290E9B018AD4223007217D5 /* CoreGraphics.framework in Frameworks */,
 				3290E9B218AD4223007217D5 /* UIKit.framework in Frameworks */,
 				3290E9AE18AD4223007217D5 /* Foundation.framework in Frameworks */,
-				32908CA418AE878900BDE9F3 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,10 +309,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32908CA618AE878900BDE9F3 /* release_notes.md in Resources */,
 				32908C9918AE34CE00BDE9F3 /* QuestionsDB.plist in Resources */,
 				3290E9C618AD4223007217D5 /* Images.xcassets in Resources */,
-				32908CA518AE878900BDE9F3 /* README.md in Resources */,
 				3290E9B818AD4223007217D5 /* InfoPlist.strings in Resources */,
 				3290E9C118AD4223007217D5 /* Main.storyboard in Resources */,
 			);

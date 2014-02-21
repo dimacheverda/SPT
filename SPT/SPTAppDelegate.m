@@ -7,7 +7,6 @@
 //
 
 #import "SPTAppDelegate.h"
-#import "TestFlight.h"
 
 @implementation SPTAppDelegate
 
