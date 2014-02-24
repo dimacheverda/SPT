@@ -70,7 +70,7 @@
     self.firstname = [defaults objectForKey:@"SPT_USER_FIRSTNAME"];
     self.surname = [defaults objectForKey:@"SPT_USER_SURNAME"];
     
-    NSString *congratString = [NSString stringWithFormat:@"%@, %@", self.firstname, self.congratLabel.text];
+    NSString *congratString = [NSString stringWithFormat:@"%@ %@, %@", self.firstname, self.surname, self.congratLabel.text];
     self.congratLabel.text = congratString;
 }
 

@@ -134,6 +134,656 @@
 				<string>am going to</string>
 			</array>
 		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I wish I _____ more money!</string>
+			<key>answer</key>
+			<string>had</string>
+			<key>variants</key>
+			<array>
+				<string>have</string>
+				<string>had</string>
+				<string>would have</string>
+				<string>was having</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>_____ be famous one day?</string>
+			<key>answer</key>
+			<string>Would you like to</string>
+			<key>variants</key>
+			<array>
+				<string>Would you like</string>
+				<string>Would you like to</string>
+				<string>Do you like</string>
+				<string>Do you like to</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>It’s my birthday _____ Friday.</string>
+			<key>answer</key>
+			<string>on</string>
+			<key>variants</key>
+			<array>
+				<string>on</string>
+				<string>in</string>
+				<string>at</string>
+				<string>by</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I _____ eighteen years old.</string>
+			<key>answer</key>
+			<string>am</string>
+			<key>variants</key>
+			<array>
+				<string>am</string>
+				<string>have</string>
+				<string>have got</string>
+				<string>-</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I _____ a headache.</string>
+			<key>answer</key>
+			<string>have</string>
+			<key>variants</key>
+			<array>
+				<string>am</string>
+				<string>do</string>
+				<string>have</string>
+				<string>got</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Do you _____ a uniform at your school?</string>
+			<key>answer</key>
+			<string>wear</string>
+			<key>variants</key>
+			<array>
+				<string>carry</string>
+				<string>wear</string>
+				<string>use</string>
+				<string>hold</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>‘What time is it?’		‘I have no _____.’</string>
+			<key>answer</key>
+			<string>idea</string>
+			<key>variants</key>
+			<array>
+				<string>idea</string>
+				<string>opinion</string>
+				<string>answer</string>
+				<string>time</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>The meal was very expensive. Look at the _____!</string>
+			<key>answer</key>
+			<string>receipt</string>
+			<key>variants</key>
+			<array>
+				<string>ticket</string>
+				<string>receipt</string>
+				<string>invoice</string>
+				<string>bill</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>How many _____ of trousers have you got?</string>
+			<key>answer</key>
+			<string>pairs</string>
+			<key>variants</key>
+			<array>
+				<string>items</string>
+				<string>pairs</string>
+				<string>sets</string>
+				<string>times</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Joel came back from his holiday in Brazil looking really _____.</string>
+			<key>answer</key>
+			<string>tanned</string>
+			<key>variants</key>
+			<array>
+				<string>tanned</string>
+				<string>sunned</string>
+				<string>coloured</string>
+				<string>darkened</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Harry can _____ English.</string>
+			<key>answer</key>
+			<string>speak</string>
+			<key>variants</key>
+			<array>
+				<string>to speak</string>
+				<string>speaking</string>
+				<string>speak</string>
+				<string>speaks</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I’m not interested _____ sports.</string>
+			<key>answer</key>
+			<string>in</string>
+			<key>variants</key>
+			<array>
+				<string>for</string>
+				<string>about</string>
+				<string>in</string>
+				<string>to</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>She likes _____ expensive clothes.</string>
+			<key>answer</key>
+			<string>wearing</string>
+			<key>variants</key>
+			<array>
+				<string>wearing</string>
+				<string>to wearing</string>
+				<string>wear</string>
+				<string>is wearing</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Harry _____ his father’s car when the accident happened.</string>
+			<key>answer</key>
+			<string>was driving</string>
+			<key>variants</key>
+			<array>
+				<string>was driving</string>
+				<string>drove</string>
+				<string>had driven</string>
+				<string>has been driven</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I was wondering _____ tell me when the next plane from Chicago arrives?</string>
+			<key>answer</key>
+			<string>if you could</string>
+			<key>variants</key>
+			<array>
+				<string>could you</string>
+				<string>can you</string>
+				<string>if you could</string>
+				<string>if could you</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>If I _____ him, I would have spoken to him, wouldn’t I?</string>
+			<key>answer</key>
+			<string>had seen</string>
+			<key>variants</key>
+			<array>
+				<string>saw</string>
+				<string>had seen</string>
+				<string>have seen</string>
+				<string>would have seen</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I like your hair. Where _____?</string>
+			<key>answer</key>
+			<string>do you have it cut</string>
+			<key>variants</key>
+			<array>
+				<string>do you have cut</string>
+				<string>have you cut it</string>
+				<string>do you have cut it</string>
+				<string>do you have it cut</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I think Joey must _____ late tonight. His office light is still on.</string>
+			<key>answer</key>
+			<string>be working</string>
+			<key>variants</key>
+			<array>
+				<string>have worked</string>
+				<string>work</string>
+				<string>be working</string>
+				<string>to work</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>John tells me Jack’s going out with Helen, _____ I find hard to believe.</string>
+			<key>answer</key>
+			<string>which</string>
+			<key>variants</key>
+			<array>
+				<string>which</string>
+				<string>who</string>
+				<string>whose</string>
+				<string>that</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>What _____ this weekend, Lance?</string>
+			<key>answer</key>
+			<string>are you doing</string>
+			<key>variants</key>
+			<array>
+				<string>will you do</string>
+				<string>are you doing</string>
+				<string>will you have done</string>
+				<string>do you do</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>The weather has been awful. We’ve had very _____ sunshine this summer.</string>
+			<key>answer</key>
+			<string>little</string>
+			<key>variants</key>
+			<array>
+				<string>little</string>
+				<string>a little</string>
+				<string>few</string>
+				<string>a few</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Did you hear what happened to Kate? She _____.</string>
+			<key>answer</key>
+			<string>has been arrested</string>
+			<key>variants</key>
+			<array>
+				<string>is arrested</string>
+				<string>arrested</string>
+				<string>has been arrested</string>
+				<string>is being arrested</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I usually _____ up at about 7.30.</string>
+			<key>answer</key>
+			<string>get</string>
+			<key>variants</key>
+			<array>
+				<string>go</string>
+				<string>be</string>
+				<string>do</string>
+				<string>get</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I _____ football every week.</string>
+			<key>answer</key>
+			<string>play</string>
+			<key>variants</key>
+			<array>
+				<string>play</string>
+				<string>go</string>
+				<string>do</string>
+				<string>have</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>My sister _____ the cooking in our house.</string>
+			<key>answer</key>
+			<string>does</string>
+			<key>variants</key>
+			<array>
+				<string>does</string>
+				<string>makes</string>
+				<string>cooks</string>
+				<string>takes</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Don’t forget to _____ the light when you leave the room.</string>
+			<key>answer</key>
+			<string>turn off</string>
+			<key>variants</key>
+			<array>
+				<string>turn up</string>
+				<string>turn in</string>
+				<string>turn off</string>
+				<string>turn over</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>She was in _____ when she heard the tragic news.</string>
+			<key>answer</key>
+			<string>tears</string>
+			<key>variants</key>
+			<array>
+				<string>crying</string>
+				<string>tears</string>
+				<string>cries</string>
+				<string>tearful</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>He _____ that he hadn’t stolen the computer, but no one believed him.</string>
+			<key>answer</key>
+			<string>insisted</string>
+			<key>variants</key>
+			<array>
+				<string>reassured</string>
+				<string>informed</string>
+				<string>insisted</string>
+				<string>persuaded</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Could you _____ me that book for a couple of days, please?</string>
+			<key>answer</key>
+			<string>lend</string>
+			<key>variants</key>
+			<array>
+				<string>lend</string>
+				<string>owe</string>
+				<string>borrow</string>
+				<string>rent</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Greg is _____ a lot of time at Yvonne’s house these days!</string>
+			<key>answer</key>
+			<string>spending</string>
+			<key>variants</key>
+			<array>
+				<string>taking</string>
+				<string>spending</string>
+				<string>having</string>
+				<string>doing</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Who _____ in that house?</string>
+			<key>answer</key>
+			<string>lives</string>
+			<key>variants</key>
+			<array>
+				<string>does live</string>
+				<string>lives</string>
+				<string>does he live</string>
+				<string>he lives</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I’ll call you when I _____ home.</string>
+			<key>answer</key>
+			<string>get</string>
+			<key>variants</key>
+			<array>
+				<string>get</string>
+				<string>&apos;ll get</string>
+				<string>&apos;ll have got</string>
+				<string>&apos;m getting</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>If you _____ me, what would you do?</string>
+			<key>answer</key>
+			<string>were</string>
+			<key>variants</key>
+			<array>
+				<string>was</string>
+				<string>would be</string>
+				<string>were</string>
+				<string>have been</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I don’t know where _____ last night.</string>
+			<key>answer</key>
+			<string>he went</string>
+			<key>variants</key>
+			<array>
+				<string>did he go</string>
+				<string>he did go</string>
+				<string>went he</string>
+				<string>he went</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>John and Betty are coming to visit us tomorrow but I wish _____.</string>
+			<key>answer</key>
+			<string>they weren&apos;t</string>
+			<key>variants</key>
+			<array>
+				<string>they won&apos;t</string>
+				<string>they hadn&apos;t</string>
+				<string>they didn&apos;t</string>
+				<string>they weren&apos;t</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I’m so hungry! If only Bill _____ all the food in the fridge!</string>
+			<key>answer</key>
+			<string>hadn&apos;t eaten</string>
+			<key>variants</key>
+			<array>
+				<string>wasn&apos;t eating</string>
+				<string>didn&apos;t eat</string>
+				<string>hadn&apos;t eaten</string>
+				<string>hasn&apos;t eaten</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I regret _____ harder in school.</string>
+			<key>answer</key>
+			<string>not studying</string>
+			<key>variants</key>
+			<array>
+				<string>not studying</string>
+				<string>not to study</string>
+				<string>to not study</string>
+				<string>not have studied</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Surely Sue _____ you if she was unhappy with your work.</string>
+			<key>answer</key>
+			<string>would have told</string>
+			<key>variants</key>
+			<array>
+				<string>will tell</string>
+				<string>would have told</string>
+				<string>must have told</string>
+				<string>had told</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Our neighbours aren’t very polite, and _____ particularly quiet!</string>
+			<key>answer</key>
+			<string>nor are they</string>
+			<key>variants</key>
+			<array>
+				<string>neither they aren&apos;t</string>
+				<string>either they aren&apos;t</string>
+				<string>nor are they</string>
+				<string>neither did they be</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>We had expected that they _____ fluent English, but in fact they didn’t.</string>
+			<key>answer</key>
+			<string>would speak</string>
+			<key>variants</key>
+			<array>
+				<string>were speaking</string>
+				<string>would speak</string>
+				<string>had spoken</string>
+				<string>spoke</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I’d rather I _____ next weekend, but I do!</string>
+			<key>answer</key>
+			<string>didn&apos;t have to work</string>
+			<key>variants</key>
+			<array>
+				<string>don&apos;t have to work</string>
+				<string>didn&apos;t have to work</string>
+				<string>wouldn&apos;t work</string>
+				<string>wasn&apos;t working</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Harriet is so knowledgeable. She can talk about _____ subject that comes up.</string>
+			<key>answer</key>
+			<string>whatever</string>
+			<key>variants</key>
+			<array>
+				<string>whatever</string>
+				<string>whenever</string>
+				<string>wherever</string>
+				<string>whoever</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I always _____ milk in my coffee.</string>
+			<key>answer</key>
+			<string>have</string>
+			<key>variants</key>
+			<array>
+				<string>have</string>
+				<string>drink</string>
+				<string>mix</string>
+				<string>make</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>I _____ TV every evening.</string>
+			<key>answer</key>
+			<string>watch</string>
+			<key>variants</key>
+			<array>
+				<string>watch</string>
+				<string>look at</string>
+				<string>see</string>
+				<string>hear</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Can you give me a _____ with my bag.</string>
+			<key>answer</key>
+			<string>hand</string>
+			<key>variants</key>
+			<array>
+				<string>leg</string>
+				<string>back</string>
+				<string>hand</string>
+				<string>head</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>Before you enter the triathlon, please bear in _____ that you’re not as young as you used to be!</string>
+			<key>answer</key>
+			<string>mind</string>
+			<key>variants</key>
+			<array>
+				<string>thought</string>
+				<string>question</string>
+				<string>mind</string>
+				<string>opinion</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>The breath test showed he had consumed more than three times the legal limit of alcohol, so the police arrested him for _____.</string>
+			<key>answer</key>
+			<string>drunk driving</string>
+			<key>variants</key>
+			<array>
+				<string>trespassing</string>
+				<string>mugging</string>
+				<string>speeding</string>
+				<string>drunk driving</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>The meeting was _____ and not very interesting.</string>
+			<key>answer</key>
+			<string>time-wasting</string>
+			<key>variants</key>
+			<array>
+				<string>time-wasting</string>
+				<string>time-consuming</string>
+				<string>time-using</string>
+				<string>out of time</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>After the movie was released, the main _____ point was its excessive use of violence.</string>
+			<key>answer</key>
+			<string>talking</string>
+			<key>variants</key>
+			<array>
+				<string>discussion</string>
+				<string>speaking</string>
+				<string>conversation</string>
+				<string>talking</string>
+			</array>
+		</dict>
+		<dict>
+			<key>problem</key>
+			<string>There have been several big _____ against the use of GM foods recently.</string>
+			<key>answer</key>
+			<string>campaigns</string>
+			<key>variants</key>
+			<array>
+				<string>campaigns</string>
+				<string>issues</string>
+				<string>boycotts</string>
+				<string>strikes</string>
+			</array>
+		</dict>
 	</array>
 </dict>
 </plist>

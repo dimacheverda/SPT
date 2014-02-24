@@ -130,7 +130,7 @@
     
     self.questionLabel.text = [NSString stringWithFormat:@"%@", currentQuestion.problem];
     
-    self.questionNumberLabel.text = [NSString stringWithFormat:@"%d of 10", self.playSession.currentQuestionIndex + 1];
+    self.questionNumberLabel.text = [NSString stringWithFormat:@"%d of 60", self.playSession.currentQuestionIndex + 1];
     
     [self.answerButton1 setTitle:currentQuestion.variants[0] forState:UIControlStateNormal];
     [self.answerButton2 setTitle:currentQuestion.variants[1] forState:UIControlStateNormal];
