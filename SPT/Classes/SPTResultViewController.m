@@ -122,7 +122,7 @@
         NSString *messageBody = [NSString stringWithFormat:@"I have passed Swan Placement Test.\nMy First Name : %@.\nMy Surname : %@.\nMy score : %d.", self.firstname, self.surname, self.score];
         
         // To address
-        NSArray *toRecipents = [NSArray arrayWithObject:@"cheverda4@e-mail.ua"];
+        NSArray *toRecipents = [NSArray arrayWithObject:@"info@selt.ie"];
         
         MFMailComposeViewController *mc = [[MFMailComposeViewController alloc] init];
         mc.mailComposeDelegate = self;
