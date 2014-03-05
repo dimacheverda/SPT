@@ -21,6 +21,7 @@
 
 @property (strong, nonatomic) NSString *firstname;
 @property (strong, nonatomic) NSString *surname;
+@property (strong, nonatomic) NSString *email;
 //@property (strong, nonatomic) NSString *emailResult;
 @property (nonatomic) BOOL emailSent;
 @property (strong, nonatomic) UIImage *screenshot;
@@ -37,6 +38,9 @@
     [super viewDidLoad];
 
 //    self.score = 500;
+    
+    self.spinnerView.hidden = YES;
+    self.scoreLabel.hidden = YES;
     
     self.spinnerView.color = [UIColor turquoiseColor];
     self.spinnerView.wellThickness = 15.0;
@@ -69,6 +73,7 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     self.firstname = [defaults objectForKey:@"SPT_USER_FIRSTNAME"];
     self.surname = [defaults objectForKey:@"SPT_USER_SURNAME"];
+    self.email = [defaults objectForKey:@"SPT_USER_EMAIL"];
     
     NSString *congratString = [NSString stringWithFormat:@"%@ %@, %@", self.firstname, self.surname, self.congratLabel.text];
     self.congratLabel.text = congratString;
@@ -87,7 +92,7 @@
                                                              blue:35.0 / 255.0
                                                             alpha:1.0];
                 [NSThread sleepForTimeInterval:0.5 / score];
-                NSLog(@"%d", _currentScore);
+//                NSLog(@"%d", _currentScore);
             }];
     }
 }
@@ -109,6 +114,22 @@
 }
 
 - (IBAction)sendResultButtonPressed:(UIButton *)sender
+{
+    [self sendMailUsingSheet];
+    
+    [self sendMailUsingSMTP];
+}
+
+#pragma mark - SKPSMTPMessage
+
+- (void)sendMailUsingSMTP
+{
+    
+}
+
+#pragma mark - MFMailComposer
+
+- (void)sendMailUsingSheet
 {
     if (!self.screenshot) {
         self.screenshot = [self takeScreenshot];
