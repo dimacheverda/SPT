@@ -33,6 +33,13 @@
 		3290E9D718AD4223007217D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3290E9D518AD4223007217D5 /* InfoPlist.strings */; };
 		3290E9D918AD4223007217D5 /* SPTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290E9D818AD4223007217D5 /* SPTTests.m */; };
 		3290E9E718AD45FC007217D5 /* SPTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3290E9E618AD45FC007217D5 /* SPTMainViewController.m */; };
+		32A86E5E18C7BBEF00C926F6 /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A86E5518C7BBEF00C926F6 /* Base64Transcoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32A86E5F18C7BBEF00C926F6 /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A86E5718C7BBEF00C926F6 /* HSK_CFUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32A86E6018C7BBEF00C926F6 /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A86E5918C7BBEF00C926F6 /* NSData+Base64Additions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32A86E6118C7BBEF00C926F6 /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A86E5B18C7BBEF00C926F6 /* NSStream+SKPSMTPExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32A86E6218C7BBEF00C926F6 /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A86E5D18C7BBEF00C926F6 /* SKPSMTPMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		32A86E6418C7C92600C926F6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A86E6318C7C92600C926F6 /* CFNetwork.framework */; };
+		32A86E6718C7C9D300C926F6 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A86E6618C7C9D300C926F6 /* MBProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,12 +75,6 @@
 		32908C9618AE217300BDE9F3 /* SPTQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTQuestion.m; path = Classes/SPTQuestion.m; sourceTree = "<group>"; };
 		32908C9A18AE610700BDE9F3 /* SPTResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTResultViewController.h; path = Classes/SPTResultViewController.h; sourceTree = "<group>"; };
 		32908C9B18AE610700BDE9F3 /* SPTResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTResultViewController.m; path = Classes/SPTResultViewController.m; sourceTree = "<group>"; };
-		32908C9E18AE878900BDE9F3 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		32908C9F18AE878900BDE9F3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		32908CA018AE878900BDE9F3 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		32908CA118AE878900BDE9F3 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		32908CA218AE878900BDE9F3 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
-		32908CA318AE878900BDE9F3 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		3290E9AA18AD4223007217D5 /* SPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3290E9AD18AD4223007217D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3290E9AF18AD4223007217D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -93,6 +94,19 @@
 		3290E9D818AD4223007217D5 /* SPTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPTTests.m; sourceTree = "<group>"; };
 		3290E9E518AD45FC007217D5 /* SPTMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPTMainViewController.h; path = Classes/SPTMainViewController.h; sourceTree = "<group>"; };
 		3290E9E618AD45FC007217D5 /* SPTMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPTMainViewController.m; path = Classes/SPTMainViewController.m; sourceTree = "<group>"; };
+		32A86E5418C7BBEF00C926F6 /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		32A86E5518C7BBEF00C926F6 /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		32A86E5618C7BBEF00C926F6 /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		32A86E5718C7BBEF00C926F6 /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		32A86E5818C7BBEF00C926F6 /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		32A86E5918C7BBEF00C926F6 /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		32A86E5A18C7BBEF00C926F6 /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		32A86E5B18C7BBEF00C926F6 /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		32A86E5C18C7BBEF00C926F6 /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		32A86E5D18C7BBEF00C926F6 /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		32A86E6318C7C92600C926F6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		32A86E6518C7C9D300C926F6 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		32A86E6618C7C9D300C926F6 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A86E6418C7C92600C926F6 /* CFNetwork.framework in Frameworks */,
 				3237110418B3D9C800C15054 /* QuartzCore.framework in Frameworks */,
 				3290E9B018AD4223007217D5 /* CoreGraphics.framework in Frameworks */,
 				3290E9B218AD4223007217D5 /* UIKit.framework in Frameworks */,
@@ -120,19 +135,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		32908C9D18AE878900BDE9F3 /* TestFlightSDK2.2.1 */ = {
-			isa = PBXGroup;
-			children = (
-				32908C9E18AE878900BDE9F3 /* libTestFlight.a */,
-				32908C9F18AE878900BDE9F3 /* README.md */,
-				32908CA018AE878900BDE9F3 /* release_notes.md */,
-				32908CA118AE878900BDE9F3 /* TestFlight+AsyncLogging.h */,
-				32908CA218AE878900BDE9F3 /* TestFlight+ManualSessions.h */,
-				32908CA318AE878900BDE9F3 /* TestFlight.h */,
-			);
-			path = TestFlightSDK2.2.1;
-			sourceTree = "<group>";
-		};
 		3290E9A118AD4223007217D5 = {
 			isa = PBXGroup;
 			children = (
@@ -155,8 +157,10 @@
 		3290E9AC18AD4223007217D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				32A86E6818C7C9D800C926F6 /* MBProgressHUD */,
+				32A86E6318C7C92600C926F6 /* CFNetwork.framework */,
+				32A86E5318C7BBEF00C926F6 /* SMTPLibrary */,
 				3237110318B3D9C800C15054 /* QuartzCore.framework */,
-				32908C9D18AE878900BDE9F3 /* TestFlightSDK2.2.1 */,
 				3290E9AD18AD4223007217D5 /* Foundation.framework */,
 				3290E9AF18AD4223007217D5 /* CoreGraphics.framework */,
 				3290E9B118AD4223007217D5 /* UIKit.framework */,
@@ -227,6 +231,32 @@
 				3290E9D518AD4223007217D5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32A86E5318C7BBEF00C926F6 /* SMTPLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				32A86E5418C7BBEF00C926F6 /* Base64Transcoder.h */,
+				32A86E5518C7BBEF00C926F6 /* Base64Transcoder.m */,
+				32A86E5618C7BBEF00C926F6 /* HSK_CFUtilities.h */,
+				32A86E5718C7BBEF00C926F6 /* HSK_CFUtilities.m */,
+				32A86E5818C7BBEF00C926F6 /* NSData+Base64Additions.h */,
+				32A86E5918C7BBEF00C926F6 /* NSData+Base64Additions.m */,
+				32A86E5A18C7BBEF00C926F6 /* NSStream+SKPSMTPExtensions.h */,
+				32A86E5B18C7BBEF00C926F6 /* NSStream+SKPSMTPExtensions.m */,
+				32A86E5C18C7BBEF00C926F6 /* SKPSMTPMessage.h */,
+				32A86E5D18C7BBEF00C926F6 /* SKPSMTPMessage.m */,
+			);
+			path = SMTPLibrary;
+			sourceTree = "<group>";
+		};
+		32A86E6818C7C9D800C926F6 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				32A86E6518C7C9D300C926F6 /* MBProgressHUD.h */,
+				32A86E6618C7C9D300C926F6 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,11 +361,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A86E5F18C7BBEF00C926F6 /* HSK_CFUtilities.m in Sources */,
 				3237110218B3D53B00C15054 /* STKSpinnerView.m in Sources */,
+				32A86E6218C7BBEF00C926F6 /* SKPSMTPMessage.m in Sources */,
 				328F9C8418AF7EF70070A69E /* SPTInfoViewController.m in Sources */,
 				32908C9718AE217300BDE9F3 /* SPTQuestion.m in Sources */,
 				32908C9C18AE610700BDE9F3 /* SPTResultViewController.m in Sources */,
 				328F9C8D18AFF63A0070A69E /* UIColor+SPTAdditions.m in Sources */,
+				32A86E6718C7C9D300C926F6 /* MBProgressHUD.m in Sources */,
 				32908C9118AE1DF300BDE9F3 /* SPTPlaySessionViewController.m in Sources */,
 				32825AD318B543B800B904FD /* SPTAboutViewController.m in Sources */,
 				328F9C8A18AFEF250070A69E /* UIButton+SPTAdditions.m in Sources */,
@@ -343,7 +376,10 @@
 				3290E9E718AD45FC007217D5 /* SPTMainViewController.m in Sources */,
 				326BBDF418B12683002D8E2F /* SPTTextField.m in Sources */,
 				32908C9418AE215300BDE9F3 /* SPTPlaySession.m in Sources */,
+				32A86E6018C7BBEF00C926F6 /* NSData+Base64Additions.m in Sources */,
+				32A86E6118C7BBEF00C926F6 /* NSStream+SKPSMTPExtensions.m in Sources */,
 				3290E9BA18AD4223007217D5 /* main.m in Sources */,
+				32A86E5E18C7BBEF00C926F6 /* Base64Transcoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

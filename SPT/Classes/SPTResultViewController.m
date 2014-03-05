@@ -10,8 +10,11 @@
 #import "STKSpinnerView.h"
 #import <MessageUI/MessageUI.h>
 #import "UIColor+SPTAdditions.h"
+#import "SKPSMTPMessage.h"
+#import "NSData+Base64Additions.h"
+#import "MBProgressHUD.h"
 
-@interface SPTResultViewController () <MFMailComposeViewControllerDelegate, UIAlertViewDelegate>
+@interface SPTResultViewController () <UIAlertViewDelegate, SKPSMTPMessageDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet STKSpinnerView *spinnerView;
@@ -25,6 +28,8 @@
 //@property (strong, nonatomic) NSString *emailResult;
 @property (nonatomic) BOOL emailSent;
 @property (strong, nonatomic) UIImage *screenshot;
+@property (strong, nonatomic) MBProgressHUD *progressHUD;
+
 @end
 
 #define MAX_SCORE 600.0
@@ -99,7 +104,7 @@
 
 #pragma mark - Mail
 
-- (UIImage *)takeScreenshot
+/*- (UIImage *)takeScreenshot
 {
     if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)])
         UIGraphicsBeginImageContextWithOptions(self.view.bounds.size, NO, [UIScreen mainScreen].scale);
@@ -111,11 +116,11 @@
     UIGraphicsEndImageContext();
     
     return image;
-}
+}*/
 
 - (IBAction)sendResultButtonPressed:(UIButton *)sender
 {
-    [self sendMailUsingSheet];
+//    [self sendMailUsingSheet];
     
     [self sendMailUsingSMTP];
 }
@@ -124,8 +129,61 @@
 
 - (void)sendMailUsingSMTP
 {
+    SKPSMTPMessage *message = [[SKPSMTPMessage alloc] init];
     
+//    NSString *SELT_EMAIL = @"info@selt.ie";
+    NSString *MY_EMAIL = @"cheverda4@e-mail.ua";
+    
+    message.fromEmail = self.email;
+    message.toEmail = MY_EMAIL;   // SELT_EMAIL
+    message.relayHost = @"smtp.gmail.com";
+    
+    message.subject = @"Swan Placement Test Result";
+    
+    message.requiresAuth = YES;
+    message.login = @"swan.placement.test@gmail.com";
+    message.pass = @"swanplacementtest";
+    message.wantsSecure = YES;
+    
+    message.delegate = self;
+    
+    NSString *messageBody = [NSString stringWithFormat:@"I have passed Swan Placement Test.\nMy First Name : %@.\nMy Surname : %@.\nMy Email : %@.\nMy score : %d.", self.firstname, self.surname, self.email, self.score];
+
+    
+    NSDictionary *plainMsg = [NSDictionary dictionaryWithObjectsAndKeys:
+                              @"text/plain",kSKPSMTPPartContentTypeKey,
+                              messageBody,kSKPSMTPPartMessageKey,
+                              @"8bit",kSKPSMTPPartContentTransferEncodingKey,nil];
+    
+    message.parts = [NSArray arrayWithObjects:plainMsg,nil];
+    
+    self.progressHUD = [[MBProgressHUD alloc] initWithFrame:CGRectMake(0,
+                                                                       0,
+                                                                       100,
+                                                                       100)];
+    
+    self.progressHUD.labelText = @"Sending...";
+//    self.progressHUD.frame = CGRectMake(0, 0, 100, 100);
+    self.progressHUD.center = CGPointMake(self.view.frame.size.width/2, self.view.frame.size.height/2);
+    [self.view addSubview:self.progressHUD];
+    [self.progressHUD show:YES];
+    
+    [message send];
 }
+
+- (void)messageSent:(SKPSMTPMessage *)message
+{
+    NSLog(@"\n\nmessage sent");
+    [self.progressHUD hide:YES];
+}
+
+- (void)messageFailed:(SKPSMTPMessage *)message error:(NSError *)error
+{
+    NSLog(@"\n\nmessage failed");
+    [self.progressHUD hide:YES];
+}
+
+/**
 
 #pragma mark - MFMailComposer
 
@@ -203,6 +261,8 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+*/ 
+ 
 #pragma mark - Home
 
 - (IBAction)homeButtomPressed:(UIButton *)sender

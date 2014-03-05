@@ -186,6 +186,16 @@
 {
     [self checkAnswer:self.selectedAnswer];
     
+//    if (!self.answerButton1.isSelected &&
+//        !self.answerButton2.isSelected &&
+//        !self.answerButton3.isSelected &&
+//        !self.answerButton4.isSelected) {
+//        
+//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Select answer" message:nil delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+//        [alert show];
+//        return;
+//    }
+    
     [self.answerButton1 setSelected:NO];
     [self.answerButton2 setSelected:NO];
     [self.answerButton3 setSelected:NO];
