@@ -131,11 +131,11 @@
 {
     SKPSMTPMessage *message = [[SKPSMTPMessage alloc] init];
     
-//    NSString *SELT_EMAIL = @"info@selt.ie";
+    NSString *SELT_EMAIL = @"info@selt.ie";
     NSString *MY_EMAIL = @"cheverda4@e-mail.ua";
     
     message.fromEmail = self.email;
-    message.toEmail = MY_EMAIL;   // SELT_EMAIL
+    message.toEmail = SELT_EMAIL;   // SELT_EMAIL
     message.relayHost = @"smtp.gmail.com";
     
     message.subject = @"Swan Placement Test Result";
@@ -174,17 +174,22 @@
 - (void)messageSent:(SKPSMTPMessage *)message
 {
     NSLog(@"\n\nmessage sent");
-    [self.progressHUD hide:YES];
+    self.emailSent = YES;
+    self.progressHUD.mode = MBProgressHUDModeText;
+    self.progressHUD.labelText = @"Sent";
+    [self.progressHUD hide:YES afterDelay:1.0];
 }
 
 - (void)messageFailed:(SKPSMTPMessage *)message error:(NSError *)error
 {
     NSLog(@"\n\nmessage failed");
-    [self.progressHUD hide:YES];
+    
+    self.progressHUD.mode = MBProgressHUDModeText;
+    self.progressHUD.labelText = @"Error! Check network";
+    [self.progressHUD hide:YES afterDelay:1.0];
 }
 
-/**
-
+/*
 #pragma mark - MFMailComposer
 
 - (void)sendMailUsingSheet
@@ -260,7 +265,6 @@
     // Close the Mail Interface
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 */ 
  
 #pragma mark - Home
