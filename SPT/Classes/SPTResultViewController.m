@@ -132,10 +132,11 @@
     SKPSMTPMessage *message = [[SKPSMTPMessage alloc] init];
     
     NSString *SELT_EMAIL = @"info@selt.ie";
+    NSString *TEST_EMAIL = @"testresults@learnenglishireland-swan.com";
     NSString *MY_EMAIL = @"cheverda4@e-mail.ua";
     
     message.fromEmail = self.email;
-    message.toEmail = SELT_EMAIL;   // SELT_EMAIL
+    message.toEmail = TEST_EMAIL;   // SELT_EMAIL
     message.relayHost = @"smtp.gmail.com";
     
     message.subject = @"Swan Placement Test Result";
