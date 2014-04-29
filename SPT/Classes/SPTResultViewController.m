@@ -143,13 +143,12 @@
     
     message.requiresAuth = YES;
     message.login = @"swan.placement.test@gmail.com";
-    message.pass = @"swanplacementtest";
+    message.pass = [NSString stringWithFormat:@"911Graftonstreet%%"];
     message.wantsSecure = YES;
     
     message.delegate = self;
     
     NSString *messageBody = [NSString stringWithFormat:@"I have passed Swan Placement Test.\nMy First Name : %@.\nMy Surname : %@.\nMy Email : %@.\nMy score : %d.", self.firstname, self.surname, self.email, self.score];
-
     
     NSDictionary *plainMsg = [NSDictionary dictionaryWithObjectsAndKeys:
                               @"text/plain",kSKPSMTPPartContentTypeKey,
